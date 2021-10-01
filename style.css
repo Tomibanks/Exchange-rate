@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serifs;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+p {
+  color: black;
+  text-align: center;
+}
+
+.btn {
+  color: #f4f4f4;
+  background-color: #8e62f3;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 12px;
+}
+
+.money-image {
+  width: 100px;
+  color: black;
+}
+
+.money {
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.money select {
+  padding: 10px 20px 10px 10px;
+  border: 1px solid #1b1919;
+  background: transparent;
+  background-size: 12px auto, 100%;
+  background-repeat: no-repeat;
+}
+
+.money input {
+  border: 0;
+  background: transparent;
+  font-size: 30px;
+  text-align: right;
+}
+
+.swap-rate-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate {
+  color: #5fbaa7;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+@media (max-width: 600px) {
+  .money input {
+    width: 200px;
+  }
+}
