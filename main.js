@@ -16,9 +16,9 @@ fetch('https://v6.exchangerate-api.com/v6/7fd01307d9d6ca694b22923d/latest/USD')
 .then((res) => res.json())
 .then((data) => {
  console.log(data);
- const rate = data.conversion_rates[money_two];
+ const rate = data.conversion_rates
 
- rateEl.innerText = '1 ${money_one} ${rate} ${money_two}';
+ rateEl.innerText =
 
 })
 
